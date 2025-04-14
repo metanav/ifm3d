@@ -81,6 +81,9 @@ if(WIN32)
   add_definitions(-D_CRT_SECURE_NO_WARNINGS)
 endif(WIN32)
 
+find_package(gtest_vendor)
+find_package(ament_cmake_ros)
+
 ################################################
 ## Start deferring work to the submodules
 ################################################
